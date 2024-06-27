@@ -13,8 +13,10 @@ import Nav from "./Nav";
 import Home from "./Home";
 
 export const App = () => (
-  <ChakraProvider theme={theme} bg="#282828">
-    <Box textAlign="center" fontSize="xl">
+  <ChakraProvider theme={theme}>
+    <Box textAlign="center" fontSize="xl" _dark={{
+      bg: "#000000"
+    }}>
       <Nav></Nav>
       <Home></Home>
     </Box>
