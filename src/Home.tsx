@@ -19,7 +19,7 @@ export default function Home() {
       <Container maxW={"100%"} py={"10em"}>
         <Heading>
           <Text
-            color="#fbf1c7"
+            color="#8ec07c"
             fontFamily="Overpass Mono"
             fontSize="3em"
             fontWeight="700"
@@ -27,9 +27,10 @@ export default function Home() {
               color: "#d3869b",
             }}
           >
-            {"{root.Kyle}"}
+            {"{Kyle}"}
           </Text>
         </Heading>
+
         <Text color="#fbf1c7" fontFamily="Overpass Mono">
           I'm Kyle Casingal. A full stack developer.
         </Text>
